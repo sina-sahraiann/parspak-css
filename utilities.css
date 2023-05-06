@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Rakkas&family=Vazirmatn:wght@500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.6;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.m-auto {
+  margin: 0px auto;
+}
+
+input :focus {
+  outline: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Vazirmatn", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fade-80 {
+  opacity: 80%;
+}
+
+.fade-70 {
+  opacity: 70%;
+}
+
+.fade-60 {
+  opacity: 60%;
+}
+
+.fade-50 {
+  opacity: 50%s;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-row-1 {
+  grid-template-rows: repeat(1, 1fr);
+}
+
+.grid-row-2 {
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-row-3 {
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-row-4 {
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.grid-row-5 {
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.grid-column-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-column-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-column-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-column-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-column-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.d-none {
+  display: none;
+}
+
+.round-10 {
+  border-radius: 10px;
+}
+
+.round-20 {
+  border-radius: 20px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-right {
+  align-items: flex-end;
+}
+
+.align-left {
+  align-items: flex-start;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-40 {
+  margin-left: 40px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.mr-50 {
+  margin-right: 50px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
